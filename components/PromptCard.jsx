@@ -34,8 +34,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
             height={40}
             className="rounded-full object-contain"
           />
-        </div>
-        <div className="flex flex-col">
+          <div className="flex flex-col">
           <h3 className="font-satoshi font-semibold text-gray-900">
             {post.creator.username}
           </h3>
@@ -43,6 +42,8 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
             {post.creator.email}
           </p>
         </div>
+        </div>
+        
         <div className="copy_btn" onClick={handleCopy}>
           <Image
             src={copied ? "/assets/icons/tick.svg" : "/assets/icons/copy.svg"}
