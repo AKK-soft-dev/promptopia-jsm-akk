@@ -3,3 +3,6 @@ Promptopia is an open-source AI prompting tool for modern world to discover, cre
 
 # Live Demo
 https://promptopia-jsm-akk.vercel.app/
+<br /><br />
+Here is [an another version](https://github.com/AKK-soft-dev/promptopia-akk-rdq).
+
